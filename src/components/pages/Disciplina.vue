@@ -2,7 +2,7 @@
 </script>
 
 <template>
-
+<div>workout</div>
 </template>
 
 <style scoped>
