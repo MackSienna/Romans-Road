@@ -1,22 +1,27 @@
 <script setup>
+    import { ref, computed } from 'vue'
     import Vestibulum from '../Vestibulum.vue';
     import { exerciseDescriptions, workoutProgram } from '../../utils';
     const selectedWorkout = 4
     const { workout, warmup } = workoutProgram[selectedWorkout]
-    const selectedExercise = 'Lat pull down'
+    let selectedExercise = ref(null)
     const exerciseDescription = exerciseDescriptions[selectedExercise]
+
+    function handleCloseModal () {
+        selectedExercise.value = null
+    }
 </script>
 
 <template>
-    <Vestibulum>
-        <div class="exercise-description">
-    <h4>{{ selectedExercise }}</h4>
+    <Vestibulum v-if="selectedExercise">
+     <div class="exercise-description">
+        <h4>{{ selectedExercise }}</h4>
      <div>
         <small>Description</small>
         <p>{{ exerciseDescription }}</p>
     </div>
-        <button>Understood <i class="fa-solid fa-spell-check"></i></button>
-      </div>  
+        <button @click="handleCloseModal">Understood <i class="fa-solid fa-spell-check"></i></button>
+     </div>  
       </Vestibulum>
     <section id="workout-card">
         <div class="plan-card card">
@@ -24,8 +29,6 @@
                 <p>Day {{ selectedWorkout < 9 ? '0' + selectedWorkout : selectedWorkout }}
                     </p>
                   <i class="fa-solid fa-person-walking"></i>
-
-                
                 </div>
                 <h2>{{ 'Ruck' }} Workout </h2>
             </div>
@@ -37,7 +40,10 @@
                     <div class="workout-grid-row" v-for="(w, wIdx) in warmup" :key="wIdx">
                       <div class="grid-name">
                         <p>{{ w.name }}</p>
-                        <button><i class="fa-solid fa-circle-info"></i>
+                        <button @click="() => {
+                            selectedExercise.value = w.name
+                        }">
+                            <i class="fa-solid fa-circle-info"></i>
                             </button>
                         </div>
                         <p>{{ w.sets }}</p>
@@ -52,7 +58,10 @@
                        <div class="workout-grid-row" v-for="(w, wIdx) in workout" :key="wIdx">
                       <div class="grid-name">
                         <p>{{ w.name }}</p>
-                        <button><i class="fa-solid fa-circle-info"></i>"
+                        <button @click="() => {
+                            selectedExercise.value = w.name
+                        }">
+                        <i class="fa-solid fa-circle-info"></i>
                             </button>
                         </div>
                         <p>{{ w.sets }}</p>
