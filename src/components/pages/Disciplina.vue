@@ -42,7 +42,7 @@
                       <div class="grid-name">
                         <p>{{ w.name }}</p>
                         <button @click="() => {
-                            selectedExercise.value = w.name
+                            selectedExercise = w.name
                         }">
                             <i class="fa-solid fa-circle-info"></i>
                             </button>
@@ -60,14 +60,14 @@
                       <div class="grid-name">
                         <p>{{ w.name }}</p>
                         <button @click="() => {
-                            selectedExercise.value = w.name
+                            selectedExercise = w.name
                         }">
                         <i class="fa-solid fa-circle-info"></i>
                             </button>
                         </div>
                         <p>{{ w.sets }}</p>
                         <p>{{ w.reps }}</p>
-                        <input class="grid-equipment" placeholder="Any Backpack" type="text" />
+                        <input class="grid-equipment" placeholder="Backpack" type="text" />
                     </div>
                 </div>
                 <div class="card workout-btns">
