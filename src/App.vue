@@ -4,7 +4,7 @@ import Tecum from './components/pages/Tecum.vue';
 import Taberna from './components/pages/Taberna.vue';
 import Disciplina from './components/pages/Disciplina.vue'
 
-const selectedDisplay = 2
+const selectedDisplay = 3
 
 
 
