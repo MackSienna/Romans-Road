@@ -1,10 +1,23 @@
 <script setup>
-    import { workoutProgram } from '../../utils';
+    import Vestibulum from '../Vestibulum.vue';
+    import { exerciseDescriptions, workoutProgram } from '../../utils';
     const selectedWorkout = 4
     const { workout, warmup } = workoutProgram[selectedWorkout]
+    const selectedExercise = 'Lat pull down'
+    const exerciseDescription = exerciseDescriptions[selectedExercise]
 </script>
 
 <template>
+    <Vestibulum>
+        <div class="exercise-description">
+    <h4>{{ selectedExercise }}</h4>
+     <div>
+        <small>Description</small>
+        <p>{{ exerciseDescription }}</p>
+    </div>
+        <button>Understood <i class="fa-solid fa-spell-check"></i></button>
+      </div>  
+      </Vestibulum>
     <section id="workout-card">
         <div class="plan-card card">
             <div class="plan-card-header">
@@ -130,5 +143,16 @@
 
 .workout-btns button i {
     gap: 0.7rem;
+}
+
+.exercise-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.exercise-description button i {
+    padding-left: 0.110rem;
+
 }
 </style>
