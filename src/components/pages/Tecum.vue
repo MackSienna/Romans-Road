@@ -49,7 +49,7 @@
     gap: 2.1rem;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 560px) {
     #welcome {
         gap: 2rem;
         padding: 2.1rem 0;

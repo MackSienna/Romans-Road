@@ -1,5 +1,5 @@
 export const workoutProgram = {
-    0: {  // Push
+    0: {  // Ruck
         warmup: [
             { name: "Around the worlds", sets: 2, reps: 25 },
             { name: "Scapula pushups", sets: 2, reps: 25 }
@@ -12,7 +12,7 @@ export const workoutProgram = {
             { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
         ]
     },
-    1: {  // Pull
+    1: {  // FS
         warmup: [
             { name: "Wall bodyweight rows", sets: 2, reps: 25 },
             { name: "Scapula pull ups", sets: 2, reps: 20 }
@@ -25,7 +25,7 @@ export const workoutProgram = {
             { name: "Hammer grip dumbbell curl", sets: 3, reps: 15 }
         ]
     },
-    2: {  // Legs
+    2: {  // FB
         warmup: [
             { name: "Glute bridges", sets: 2, reps: 30 },
             { name: "Bodyweight squats", sets: 2, reps: 20 }
@@ -38,7 +38,7 @@ export const workoutProgram = {
             { name: "Leg press calf raises", sets: 3, reps: 15 }
         ]
     },
-    3: {  // Push
+    3: {  // Ruck
         warmup: [
             { name: "Around the worlds", sets: 2, reps: 25 },
             { name: "Scapula pushups", sets: 2, reps: 25 }
@@ -51,7 +51,7 @@ export const workoutProgram = {
             { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
         ]
     },
-    4: {  // Pull
+    4: {  // FS
         warmup: [
             { name: "leaning rear delt holds", sets: 2, reps: 20 },
             { name: "Scapula pull ups", sets: 2, reps: 20 }
@@ -64,7 +64,7 @@ export const workoutProgram = {
             { name: "Alternating dumbbell curl", sets: 3, reps: 15 }
         ]
     },
-    5: {  // Legs
+    5: {  // FB
         warmup: [
             { name: "Glute bridges", sets: 2, reps: 30 },
             { name: "Bodyweight squats", sets: 2, reps: 20 }
@@ -77,7 +77,7 @@ export const workoutProgram = {
             { name: "Leg extension", sets: 3, reps: 15 }
         ]
     },
-    6: {  // Push
+    6: {  // Ruck
         warmup: [
             { name: "Around the worlds", sets: 2, reps: 25 },
             { name: "Scapula pushups", sets: 2, reps: 25 }
@@ -90,7 +90,7 @@ export const workoutProgram = {
             { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
         ]
     },
-    7: {  // Pull
+    7: {  // FS
         warmup: [
             { name: "Wall bodyweight rows", sets: 2, reps: 25 },
             { name: "Scapula pull ups", sets: 2, reps: 20 }
@@ -103,7 +103,7 @@ export const workoutProgram = {
             { name: "Hammer grip dumbbell curl", sets: 3, reps: 15 }
         ]
     },
-    8: {  // Legs
+    8: {  // FB
         warmup: [
             { name: "Glute bridges", sets: 2, reps: 30 },
             { name: "Bodyweight squats", sets: 2, reps: 20 }
@@ -116,7 +116,7 @@ export const workoutProgram = {
             { name: "Good girls / bad girls", sets: 3, reps: 15 }
         ]
     },
-    9: {  // Push
+    9: {  // Ruck
         warmup: [
             { name: "Around the worlds", sets: 2, reps: 25 },
             { name: "Scapula pushups", sets: 2, reps: 25 }
@@ -129,7 +129,7 @@ export const workoutProgram = {
             { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
         ]
     },
-    10: {  // Pull
+    10: {  // FS
         warmup: [
             { name: "leaning rear delt holds", sets: 2, reps: 20 },
             { name: "Wall bodyweight rows", sets: 2, reps: 20 }
@@ -142,7 +142,7 @@ export const workoutProgram = {
             { name: "Alternating dumbbell curl", sets: 3, reps: 15 }
         ]
     },
-    11: {  // Legs
+    11: {  // FB
         warmup: [
             { name: "Glute bridges", sets: 2, reps: 30 },
             { name: "Bodyweight squats", sets: 2, reps: 20 }
@@ -155,7 +155,7 @@ export const workoutProgram = {
             { name: "Hamstring curl", sets: 3, reps: 15 },
         ]
     },
-    12: {  // Push
+    12: {  // Ruck
         warmup: [
             { name: "Scapula pushups", sets: 2, reps: 25 },
             { name: "Wall bodyweight rows", sets: 2, reps: 25 },
@@ -168,7 +168,7 @@ export const workoutProgram = {
             { name: "Cable rope pushdown", sets: 3, reps: 15 },
         ]
     },
-    13: {  // Pull
+    13: {  // FS
         warmup: [
             { name: "Wall bodyweight rows", sets: 2, reps: 25 },
             { name: "Scapula pull ups", sets: 2, reps: 20 }
@@ -181,7 +181,7 @@ export const workoutProgram = {
             { name: "Hammer grip dumbbell curl", sets: 3, reps: 15 }
         ]
     },
-    14: {  // Legs
+    14: {  // FB
         warmup: [
             { name: "Glute bridges", sets: 2, reps: 30 },
             { name: "Bodyweight squats", sets: 2, reps: 20 }
@@ -194,7 +194,7 @@ export const workoutProgram = {
             { name: "Calf raises", sets: 3, reps: 15 }
         ]
     },
-    15: {  // Push
+    15: {  // Ruck
         warmup: [
             { name: "Around the worlds", sets: 2, reps: 25 },
             { name: "Scapula pushups", sets: 2, reps: 25 }
@@ -207,7 +207,7 @@ export const workoutProgram = {
             { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
         ]
     },
-    16: {  // Pull
+    16: {  // FS
         warmup: [
             { name: "leaning rear delt holds", sets: 2, reps: 20 },
             { name: "Scapula pull ups", sets: 2, reps: 20 }
@@ -220,7 +220,7 @@ export const workoutProgram = {
             { name: "Alternating dumbbell curl", sets: 3, reps: 15 }
         ]
     },
-    17: {  // Legs
+    17: {  // FB
         warmup: [
             { name: "Bodyweight RDLs", sets: 2, reps: 20 },
             { name: "Glute bridges", sets: 2, reps: 30 },
@@ -233,7 +233,7 @@ export const workoutProgram = {
             { name: "Hamstring curl", sets: 3, reps: 15 }
         ]
     },
-    18: {  // Push
+    18: {  // Ruck
         warmup: [
             { name: "Around the worlds", sets: 2, reps: 25 },
             { name: "Scapula pushups", sets: 2, reps: 25 }
@@ -246,7 +246,7 @@ export const workoutProgram = {
             { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
         ]
     },
-    19: {  // Pull
+    19: {  // FS
         warmup: [
             { name: "Wall bodyweight rows", sets: 2, reps: 25 },
             { name: "Scapula pull ups", sets: 2, reps: 20 }
@@ -259,7 +259,7 @@ export const workoutProgram = {
             { name: "Hammer grip dumbbell curl", sets: 3, reps: 15 }
         ]
     },
-    20: {  // Legs
+    20: {  // FB
         warmup: [
             { name: "Glute bridges", sets: 2, reps: 30 },
             { name: "Bodyweight squats", sets: 2, reps: 20 }
@@ -272,7 +272,7 @@ export const workoutProgram = {
             { name: "Calf raises", sets: 3, reps: 15 }
         ]
     },
-    21: {  // Push
+    21: {  // Ruck
         warmup: [
             { name: "Around the worlds", sets: 2, reps: 25 },
             { name: "Scapula pushups", sets: 2, reps: 25 }
@@ -285,7 +285,7 @@ export const workoutProgram = {
             { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
         ]
     },
-    22: {  // Pull
+    22: {  // FS
         warmup: [
             { name: "leaning rear delt holds", sets: 2, reps: 20 },
             { name: "Wall bodyweight rows", sets: 2, reps: 20 }
@@ -298,7 +298,7 @@ export const workoutProgram = {
             { name: "Alternating dumbbell curl", sets: 3, reps: 15 }
         ]
     },
-    23: {  // Legs
+    23: {  // FB
         warmup: [
             { name: "Bodyweight RDLs", sets: 2, reps: 30 },
             { name: "Bodyweight  squats", sets: 2, reps: 20 }
@@ -311,7 +311,7 @@ export const workoutProgram = {
             { name: "Calf raises", sets: 3, reps: 15 }
         ]
     },
-    24: {  // Push
+    24: {  // Ruck
         warmup: [
             { name: "Around the worlds", sets: 2, reps: 25 },
             { name: "Scapula pushups", sets: 2, reps: 25 }
@@ -324,7 +324,7 @@ export const workoutProgram = {
             { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
         ]
     },
-    25: {  // Pull
+    25: {  // FS
         warmup: [
             { name: "Wall bodyweight rows", sets: 2, reps: 25 },
             { name: "Scapula pull ups", sets: 2, reps: 20 }
@@ -337,7 +337,7 @@ export const workoutProgram = {
             { name: "Hammer grip dumbbell curl", sets: 3, reps: 15 }
         ]
     },
-    26: {  // Legs
+    26: {  // FB
         warmup: [
             { name: "Bodyweight RDLs", sets: 2, reps: 15 },
             { name: "Bodyweight squats", sets: 2, reps: 20 }
@@ -350,7 +350,7 @@ export const workoutProgram = {
             { name: "Calf raises", sets: 3, reps: 12 },
         ]
     },
-    27: {  // Push
+    27: {  // Ruck
         warmup: [
             { name: "Around the worlds", sets: 2, reps: 25 },
             { name: "Scapula pushups", sets: 2, reps: 25 }
@@ -363,7 +363,7 @@ export const workoutProgram = {
             { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
         ]
     },
-    28: {  // Pull
+    28: {  // FS
         warmup: [
             { name: "leaning rear delt holds", sets: 2, reps: 20 },
             { name: "Scapula pull ups", sets: 2, reps: 20 }
@@ -376,7 +376,7 @@ export const workoutProgram = {
             { name: "Alternating dumbbell curl", sets: 3, reps: 15 }
         ]
     },
-    29: {  // Legs
+    29: {  // FB
         warmup: [
             { name: "Glute bridges", sets: 2, reps: 30 },
             { name: "Bodyweight squats", sets: 2, reps: 20 }
@@ -438,7 +438,7 @@ export const exerciseDescriptions = {
     "Good girls / bad girls": "Using the adductor/abductor machine, move your legs together (adductor) or apart (abductor) to target the inner and outer thighs.",
 }
 
-export const gymHealthFacts = [
+export const templeHealthFacts = [
     "Getting 7–9 hours of sleep supports muscle recovery and hormone balance.",
     "Eating enough protein (1.6–2.2g per kg body weight) helps with muscle repair and growth.",
     "Staying hydrated improves workout performance and aids nutrient delivery.",
@@ -446,7 +446,7 @@ export const gymHealthFacts = [
     "Healthy fats support hormone production and long-term energy levels.",
     "Fiber-rich foods support digestion and help maintain a lean physique.",
     "Daily walking improves cardiovascular health and aids recovery on rest days.",
-    "Meditation or breathwork can reduce stress and improve recovery and focus.",
+    "Meditation on the Word will produce fruit, follow the tree.",
     "A proper warm-up increases blood flow and reduces injury risk.",
     "Skipping rest days can lead to overtraining, fatigue, and stalled progress."
 ]
