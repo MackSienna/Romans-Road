@@ -1,12 +1,12 @@
 <script setup>
-    import { ref } from 'vue'
+    import { computed, ref } from 'vue'
     import Vestibulum from '../Vestibulum.vue';
     import { workoutProgram, exerciseDescriptions } from '../../utils';
     const selectedWorkout = 4
     const { workout, warmup } = workoutProgram[selectedWorkout]
     let selectedExercise = ref(null)
     console.log(selectedExercise)
-    const exerciseDescription = exerciseDescriptions[selectedExercise]
+    const exerciseDescription = computed(() => exerciseDescriptions[selectedExercise.value])
 
     function handleCloseModal () {
         selectedExercise.value = null
@@ -14,7 +14,7 @@
 </script>
 
 <template>
-    <Vestibulum v-if="selectedExercise">
+    <Vestibulum one="King" :handleCloseModal="handleCloseModal" v-if="selectedExercise">
      <div class="exercise-description">
         <h4>{{ selectedExercise }}</h4>
      <div>
@@ -35,8 +35,8 @@
             </div>
                 <div class="workout-grid">
                 <h4 class="grid-name">Warmup</h4>
-                <h7>Duration</h7>
-                <h7>Ratio</h7>
+                <h6>Duration</h6>
+                <h6>Ratio</h6>
                 <h6 class="grid-equipment">Equipment</h6>
                     <div class="workout-grid-row" v-for="(w, wIdx) in warmup" :key="wIdx">
                       <div class="grid-name">
@@ -49,12 +49,12 @@
                         </div>
                         <p>{{ w.sets }}</p>
                         <p>{{ w.reps }}</p>
-                        <input class="grid-equipment" placeholder="Backpack" type="text" disabled/>
+                        <input class="grid-equipment" placeholder="Bag" type="text" disabled/>
                     </div>
                     <div class="workout-grid-line"></div>
                     <h4 class="grid-name">Workout</h4>
-                <h7>Duration</h7>
-                <h7>Ratio</h7>
+                <h6>Duration</h6>
+                <h6>Ratio</h6>
                 <h6 class="grid-equipment">Equipment</h6>
                        <div class="workout-grid-row" v-for="(w, wIdx) in workout" :key="wIdx">
                       <div class="grid-name">
@@ -67,7 +67,7 @@
                         </div>
                         <p>{{ w.sets }}</p>
                         <p>{{ w.reps }}</p>
-                        <input class="grid-equipment" placeholder="Backpack" type="text" />
+                        <input class="grid-equipment" placeholder="Bag" type="text" />
                     </div>
                 </div>
                 <div class="card workout-btns">
@@ -159,6 +159,11 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+.exercise-description h4 {
+    text-transform: capitalize;
+
 }
 
 .exercise-description button i {
