@@ -1,10 +1,11 @@
 <script setup>
-    import { ref, computed } from 'vue'
+    import { ref } from 'vue'
     import Vestibulum from '../Vestibulum.vue';
-    import { exerciseDescriptions, workoutProgram } from '../../utils';
+    import { workoutProgram, exerciseDescriptions } from '../../utils';
     const selectedWorkout = 4
     const { workout, warmup } = workoutProgram[selectedWorkout]
     let selectedExercise = ref(null)
+    console.log(selectedExercise)
     const exerciseDescription = exerciseDescriptions[selectedExercise]
 
     function handleCloseModal () {
