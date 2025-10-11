@@ -58,7 +58,7 @@ function handleCloseModal() {
       <h4 class="grid-name">Warmup</h4>
       <h6>Sets</h6>
       <h6>Ratio</h6>
-      <h6 class="grid-equipment">Equipment</h6>
+      <h6 class="grid-equipment">Completed?</h6>
       <div class="workout-grid-row" v-for="(w, wIdx) in warmup" :key="wIdx">
         <div class="grid-name">
           <p>{{ w.name }}</p>
@@ -74,13 +74,13 @@ function handleCloseModal() {
         </div>
         <p>{{ w.sets }}</p>
         <p>{{ w.reps }}</p>
-        <input class="grid-equipment" placeholder="Bag" type="text" disabled />
+        <input class="grid-equipment" placeholder="" type="text" disabled />
       </div>
       <div class="workout-grid-line"></div>
       <h4 class="grid-name">Workout</h4>
       <h6>Sets</h6>
       <h6>Ratio</h6>
-      <h6 class="grid-equipment">Equipment</h6>
+      <h6 class="grid-equipment">Completed?</h6>
       <div class="workout-grid-row" v-for="(w, wIdx) in workout" :key="wIdx">
         <div class="grid-name">
           <p>{{ w.name }}</p>
@@ -99,7 +99,7 @@ function handleCloseModal() {
         <input
           v-model="data[selectedWorkout][w.name]"
           class="grid-equipment"
-          placeholder="Bag"
+          placeholder=""
           type="text"
         />
       </div>
