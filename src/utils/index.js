@@ -131,210 +131,212 @@ export const workoutProgram = {
     },
     10: {  // FS
         warmup: [
-            { name: "leaning rear delt holds", sets: 2, reps: 20 },
-            { name: "Wall bodyweight rows", sets: 2, reps: 20 }
+            { name: "Rear delt wall holds", sets: 2, reps: 20 },
+            { name: "Wall body rows", sets: 2, reps: 20 }
         ],
         workout: [
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Chest supported dumbbell row", sets: 3, reps: 10 },
-            { name: "Rear delt flies", sets: 3, reps: 15 },
-            { name: "Cable bar shrugs", sets: 3, reps: 12 },
-            { name: "Alternating dumbbell curl", sets: 3, reps: 15 }
+            { name: "Pack rows", sets: 3, reps: 12 },
+            { name: "Pack incline rows (table)", sets: 3, reps: 12 },
+            { name: "Pack rear delt raises", sets: 3, reps: 15 },
+            { name: "Pack shrugs", sets: 3, reps: 20 },
+            { name: "Alternating pack curls", sets: 3, reps: 20 }
         ]
     },
     11: {  // FB
         warmup: [
-            { name: "Glute bridges", sets: 2, reps: 30 },
+            { name: "Bridge holds", sets: 2, reps: 25 },
             { name: "Bodyweight squats", sets: 2, reps: 20 }
         ],
         workout: [
-            { name: "Romanian deadlifts", sets: 3, reps: 10 },
-            { name: "Leg press", sets: 3, reps: 10 },
-            { name: "Calf raises", sets: 3, reps: 12 },
-            { name: "Walking lunges", sets: 3, reps: 15 },
-            { name: "Hamstring curl", sets: 3, reps: 15 },
+            { name: "Pack RDLs", sets: 3, reps: 15 },
+            { name: "Pack step-ups", sets: 3, reps: 20 },
+            { name: "Pack calf raises", sets: 3, reps: 25 },
+            { name: "Walking lunges with pack", sets: 3, reps: 20 },
+            { name: "Pack hamstring slides", sets: 3, reps: 15 }
         ]
     },
     12: {  // Ruck
         warmup: [
-            { name: "Scapula pushups", sets: 2, reps: 25 },
-            { name: "Wall bodyweight rows", sets: 2, reps: 25 },
+            { name: "Scapular pushups with pack", sets: 2, reps: 20 },
+            { name: "Wall body rows", sets: 2, reps: 20 }
         ],
         workout: [
-            { name: "Incline dumbbell press", sets: 3, reps: 10 },
-            { name: "Dips", sets: 3, reps: 10 },
-            { name: "Dumbbell chest flies", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 },
-            { name: "Cable rope pushdown", sets: 3, reps: 15 },
+            { name: "Incline pushups on pack", sets: 3, reps: 20 },
+            { name: "Pack dips (bench)", sets: 3, reps: 15 },
+            { name: "Alternating pack flies (floor)", sets: 3, reps: 15 },
+            { name: "Pack triceps extensions", sets: 3, reps: 20 },
+            { name: "Pack floor press", sets: 3, reps: 15 }
         ]
     },
     13: {  // FS
         warmup: [
-            { name: "Wall bodyweight rows", sets: 2, reps: 25 },
-            { name: "Scapula pull ups", sets: 2, reps: 20 }
+            { name: "Wall body rows", sets: 2, reps: 20 },
+            { name: "Scapular prone pulls", sets: 2, reps: 15 }
         ],
         workout: [
-            { name: "Lat pull down", sets: 3, reps: 10 },
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Cable bar shrugs", sets: 3, reps: 10 },
-            { name: "Overhand cable curl", sets: 3, reps: 15 },
-            { name: "Hammer grip dumbbell curl", sets: 3, reps: 15 }
+            { name: "Pack bent-over rows", sets: 3, reps: 12 },
+            { name: "Pack seated rows (floor)", sets: 3, reps: 12 },
+            { name: "Pack shrugs", sets: 3, reps: 20 },
+            { name: "Pack overhand curls", sets: 3, reps: 15 },
+            { name: "Pack hammer curls", sets: 3, reps: 15 }
         ]
     },
     14: {  // FB
         warmup: [
-            { name: "Glute bridges", sets: 2, reps: 30 },
+            { name: "Glute bridges", sets: 2, reps: 25 },
             { name: "Bodyweight squats", sets: 2, reps: 20 }
         ],
         workout: [
-            { name: "Barbell squat", sets: 3, reps: 10 },
-            { name: "Leg press", sets: 3, reps: 10 },
-            { name: "Hamstring curl", sets: 3, reps: 10 },
-            { name: "Leg extension", sets: 3, reps: 12 },
-            { name: "Calf raises", sets: 3, reps: 15 }
+            { name: "Pack front squats", sets: 4, reps: 15 },
+            { name: "Pack split squats", sets: 3, reps: 12 },
+            { name: "Pack hamstring slides", sets: 3, reps: 15 },
+            { name: "Pack leg extensions (floor hold)", sets: 3, reps: 15 },
+            { name: "Pack calf raises", sets: 3, reps: 25 }
         ]
     },
     15: {  // Ruck
         warmup: [
-            { name: "Around the worlds", sets: 2, reps: 25 },
-            { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Ruck shoulder circles", sets: 2, reps: 25 },
+            { name: "Scapular pushups with pack", sets: 2, reps: 20 }
         ],
         workout: [
-            { name: "Dumbbell chest flies", sets: 3, reps: 15 },
-            { name: "Dips", sets: 3, reps: 12 },
-            { name: "Cable crossover press", sets: 3, reps: 10 },
-            { name: "Unilateral cable pushdown", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
+            { name: "Alternating pack flies", sets: 3, reps: 15 },
+            { name: "Pack dips (bench)", sets: 3, reps: 15 },
+            { name: "Pack overhead press", sets: 3, reps: 12 },
+            { name: "Pack triceps extensions", sets: 3, reps: 15 },
+            { name: "Pack floor press", sets: 3, reps: 15 }
         ]
     },
     16: {  // FS
         warmup: [
-            { name: "leaning rear delt holds", sets: 2, reps: 20 },
-            { name: "Scapula pull ups", sets: 2, reps: 20 }
+            { name: "Rear delt wall holds", sets: 2, reps: 20 },
+            { name: "Scapular prone pulls", sets: 2, reps: 15 }
         ],
         workout: [
-            { name: "Lat pull down", sets: 3, reps: 10 },
-            { name: "Chest supported dumbbell row", sets: 3, reps: 10 },
-            { name: "Dumbbell side raises", sets: 3, reps: 15 },
-            { name: "Cable bar shrugs", sets: 3, reps: 12 },
-            { name: "Alternating dumbbell curl", sets: 3, reps: 15 }
+            { name: "Pack bent rows", sets: 3, reps: 12 },
+            { name: "Pack rear delt raises", sets: 3, reps: 15 },
+            { name: "Pack lateral raises", sets: 3, reps: 15 },
+            { name: "Pack shrugs", sets: 3, reps: 20 },
+            { name: "Alternating pack curls", sets: 3, reps: 20 }
         ]
     },
     17: {  // FB
         warmup: [
             { name: "Bodyweight RDLs", sets: 2, reps: 20 },
-            { name: "Glute bridges", sets: 2, reps: 30 },
+            { name: "Glute bridges", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Romanian deadlifts", sets: 3, reps: 10 },
-            { name: "Bulgarian split squat", sets: 3, reps: 15 },
-            { name: "Good girls / bad girls", sets: 3, reps: 10 },
-            { name: "Hip thrust", sets: 3, reps: 12 },
-            { name: "Hamstring curl", sets: 3, reps: 15 }
+            { name: "Pack deadlifts", sets: 3, reps: 15 },
+            { name: "Pack split squats", sets: 3, reps: 15 },
+            { name: "Pack side step squats", sets: 3, reps: 12 },
+            { name: "Hip thrust with pack", sets: 3, reps: 15 },
+            { name: "Pack hamstring slides", sets: 3, reps: 15 }
         ]
     },
     18: {  // Ruck
         warmup: [
-            { name: "Around the worlds", sets: 2, reps: 25 },
-            { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Ruck shoulder rotations", sets: 2, reps: 25 },
+            { name: "Scapular pushups with pack", sets: 2, reps: 20 }
         ],
         workout: [
-            { name: "Pushups", sets: 3, reps: 20 },
-            { name: "Barbell bench press", sets: 3, reps: 10 },
-            { name: "Cable chest flies", sets: 3, reps: 20 },
-            { name: "Unilateral cable pushdown", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
+            { name: "Weighted pack pushups", sets: 4, reps: 20 },
+            { name: "Pack chest press (floor)", sets: 3, reps: 15 },
+            { name: "Alternating pack flies (floor)", sets: 3, reps: 15 },
+            { name: "Pack triceps dips (bench)", sets: 3, reps: 15 },
+            { name: "Overhead pack march", sets: 3, reps: 60 }
         ]
     },
     19: {  // FS
         warmup: [
-            { name: "Wall bodyweight rows", sets: 2, reps: 25 },
-            { name: "Scapula pull ups", sets: 2, reps: 20 }
+            { name: "Wall body rows", sets: 2, reps: 20 },
+            { name: "Scapular prone pulls", sets: 2, reps: 15 }
         ],
         workout: [
-            { name: "Lat pull down", sets: 3, reps: 10 },
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Unilateral dumbbell row", sets: 3, reps: 10 },
-            { name: "Overhand cable curl", sets: 3, reps: 15 },
-            { name: "Hammer grip dumbbell curl", sets: 3, reps: 15 }
+            { name: "Pack bent rows", sets: 3, reps: 12 },
+            { name: "Pack seated rows (floor)", sets: 3, reps: 12 },
+            { name: "Single-arm pack rows", sets: 3, reps: 10 },
+            { name: "Pack overhand curls", sets: 3, reps: 15 },
+            { name: "Pack hammer curls", sets: 3, reps: 15 }
         ]
     },
+
+
     20: {  // FB
         warmup: [
-            { name: "Glute bridges", sets: 2, reps: 30 },
+            { name: "Glute bridges", sets: 2, reps: 25 },
             { name: "Bodyweight squats", sets: 2, reps: 20 }
         ],
         workout: [
-            { name: "Barbell squat", sets: 3, reps: 10 },
-            { name: "Bulgarian split squat", sets: 3, reps: 12 },
-            { name: "Unilateral RDLs", sets: 3, reps: 10 },
-            { name: "Good girls / bad girls", sets: 3, reps: 10 },
-            { name: "Calf raises", sets: 3, reps: 15 }
+            { name: "Pack front squats", sets: 3, reps: 15 },
+            { name: "Pack Bulgarian split squats", sets: 3, reps: 12 },
+            { name: "Pack RDLs", sets: 3, reps: 12 },
+            { name: "Pack adductor/abductor slides", sets: 3, reps: 15 },
+            { name: "Pack calf raises", sets: 3, reps: 25 }
         ]
     },
     21: {  // Ruck
         warmup: [
-            { name: "Around the worlds", sets: 2, reps: 25 },
-            { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Around the worlds with pack", sets: 2, reps: 20 },
+            { name: "Scapular pushups with pack", sets: 2, reps: 20 }
         ],
         workout: [
-            { name: "Incline dumbbell press", sets: 3, reps: 15 },
-            { name: "Dips", sets: 3, reps: 12 },
-            { name: "Cable crossover press", sets: 3, reps: 10 },
-            { name: "Unilateral cable pushdown", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
+            { name: "Incline pushups on pack", sets: 3, reps: 20 },
+            { name: "Pack dips (bench)", sets: 3, reps: 15 },
+            { name: "Alternating pack flies", sets: 3, reps: 15 },
+            { name: "Pack triceps extensions", sets: 3, reps: 20 },
+            { name: "Pack floor press", sets: 3, reps: 15 }
         ]
     },
     22: {  // FS
         warmup: [
-            { name: "leaning rear delt holds", sets: 2, reps: 20 },
-            { name: "Wall bodyweight rows", sets: 2, reps: 20 }
+            { name: "Rear delt wall holds", sets: 2, reps: 20 },
+            { name: "Wall body rows", sets: 2, reps: 20 }
         ],
         workout: [
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Chest supported dumbbell row", sets: 3, reps: 10 },
-            { name: "Dumbbell side raises", sets: 3, reps: 15 },
-            { name: "Cable bar shrugs", sets: 3, reps: 12 },
-            { name: "Alternating dumbbell curl", sets: 3, reps: 15 }
+            { name: "Pack rows", sets: 3, reps: 12 },
+            { name: "Pack incline rows (table)", sets: 3, reps: 12 },
+            { name: "Pack lateral raises", sets: 3, reps: 15 },
+            { name: "Pack shrugs", sets: 3, reps: 20 },
+            { name: "Alternating pack curls", sets: 3, reps: 20 }
         ]
     },
     23: {  // FB
         warmup: [
-            { name: "Bodyweight RDLs", sets: 2, reps: 30 },
-            { name: "Bodyweight  squats", sets: 2, reps: 20 }
+            { name: "Bodyweight RDLs", sets: 2, reps: 20 },
+            { name: "Bodyweight squats", sets: 2, reps: 20 }
         ],
         workout: [
-            { name: "Romanian deadlifts", sets: 3, reps: 10 },
-            { name: "Goblet squat", sets: 3, reps: 15 },
-            { name: "Leg press", sets: 3, reps: 10 },
-            { name: "Hamstring curl", sets: 3, reps: 12 },
-            { name: "Calf raises", sets: 3, reps: 15 }
+            { name: "Pack RDLs", sets: 3, reps: 15 },
+            { name: "Pack goblet squats", sets: 3, reps: 15 },
+            { name: "Pack step-ups", sets: 3, reps: 20 },
+            { name: "Pack hamstring slides", sets: 3, reps: 15 },
+            { name: "Pack calf raises", sets: 3, reps: 25 }
         ]
     },
     24: {  // Ruck
         warmup: [
-            { name: "Around the worlds", sets: 2, reps: 25 },
-            { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Ruck shoulder rolls", sets: 2, reps: 25 },
+            { name: "Scapular pushups with pack", sets: 2, reps: 20 }
         ],
         workout: [
-            { name: "Barbell bench press", sets: 3, reps: 10 },
-            { name: "Cable crossover press", sets: 3, reps: 15 },
-            { name: "Incline dumbbell press", sets: 3, reps: 10 },
-            { name: "Unilateral cable pushdown", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
+            { name: "Pack floor press", sets: 3, reps: 15 },
+            { name: "Alternating pack flies", sets: 3, reps: 15 },
+            { name: "Incline pushups on pack", sets: 3, reps: 20 },
+            { name: "Pack triceps extensions", sets: 3, reps: 20 },
+            { name: "Pack dips (bench)", sets: 3, reps: 15 }
         ]
     },
     25: {  // FS
         warmup: [
-            { name: "Wall bodyweight rows", sets: 2, reps: 25 },
-            { name: "Scapula pull ups", sets: 2, reps: 20 }
+            { name: "Wall body rows", sets: 2, reps: 25 },
+            { name: "Scapular prone pulls", sets: 2, reps: 15 }
         ],
         workout: [
-            { name: "Lat pull down", sets: 3, reps: 10 },
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Unilateral dumbbell row", sets: 3, reps: 10 },
-            { name: "Overhand cable curl", sets: 3, reps: 15 },
-            { name: "Hammer grip dumbbell curl", sets: 3, reps: 15 }
+            { name: "Pack bent rows", sets: 3, reps: 12 },
+            { name: "Pack seated rows (floor)", sets: 3, reps: 12 },
+            { name: "Single-arm pack rows", sets: 3, reps: 10 },
+            { name: "Pack overhand curls", sets: 3, reps: 15 },
+            { name: "Pack hammer curls", sets: 3, reps: 15 }
         ]
     },
     26: {  // FB
@@ -343,110 +345,163 @@ export const workoutProgram = {
             { name: "Bodyweight squats", sets: 2, reps: 20 }
         ],
         workout: [
-            { name: "Barbell squat", sets: 3, reps: 10 },
-            { name: "Hip thrust", sets: 3, reps: 10 },
-            { name: "Unilateral RDLs", sets: 3, reps: 10 },
-            { name: "Walking lunges", sets: 3, reps: 15 },
-            { name: "Calf raises", sets: 3, reps: 12 },
+            { name: "Pack back squats", sets: 3, reps: 15 },
+            { name: "Hip thrust with pack", sets: 3, reps: 15 },
+            { name: "Pack unilateral RDLs", sets: 3, reps: 12 },
+            { name: "Walking lunges with pack", sets: 3, reps: 20 },
+            { name: "Pack calf raises", sets: 3, reps: 25 }
         ]
     },
     27: {  // Ruck
         warmup: [
-            { name: "Around the worlds", sets: 2, reps: 25 },
-            { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Ruck shoulder circles", sets: 2, reps: 25 },
+            { name: "Scapular pushups with pack", sets: 2, reps: 20 }
         ],
         workout: [
-            { name: "Barbell bench press", sets: 3, reps: 15 },
-            { name: "Dips", sets: 3, reps: 12 },
-            { name: "Cable crossover press", sets: 3, reps: 10 },
-            { name: "Unilateral cable pushdown", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
+            { name: "Pack floor press", sets: 3, reps: 15 },
+            { name: "Pack dips (bench)", sets: 3, reps: 15 },
+            { name: "Alternating pack flies", sets: 3, reps: 15 },
+            { name: "Pack triceps extensions", sets: 3, reps: 15 },
+            { name: "Overhead pack march", sets: 3, reps: 60 }
         ]
     },
     28: {  // FS
         warmup: [
-            { name: "leaning rear delt holds", sets: 2, reps: 20 },
-            { name: "Scapula pull ups", sets: 2, reps: 20 }
+            { name: "Rear delt wall holds", sets: 2, reps: 20 },
+            { name: "Scapular prone pulls", sets: 2, reps: 15 }
         ],
         workout: [
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Chest supported dumbbell row", sets: 3, reps: 10 },
-            { name: "Rear delt flies", sets: 3, reps: 15 },
-            { name: "Cable bar shrugs", sets: 3, reps: 12 },
-            { name: "Alternating dumbbell curl", sets: 3, reps: 15 }
+            { name: "Pack bent rows", sets: 3, reps: 12 },
+            { name: "Pack rear delt raises", sets: 3, reps: 15 },
+            { name: "Pack face pulls (band/strap)", sets: 3, reps: 15 },
+            { name: "Pack shrugs", sets: 3, reps: 20 },
+            { name: "Alternating pack curls", sets: 3, reps: 20 }
         ]
     },
     29: {  // FB
         warmup: [
-            { name: "Glute bridges", sets: 2, reps: 30 },
+            { name: "Glute bridges", sets: 2, reps: 25 },
             { name: "Bodyweight squats", sets: 2, reps: 20 }
         ],
         workout: [
-            { name: "Leg press", sets: 3, reps: 10 },
-            { name: "Bulgarian split squat", sets: 3, reps: 10 },
-            { name: "Leg extension", sets: 3, reps: 15 },
-            { name: "Hip thrust", sets: 3, reps: 12 },
-            { name: "Leg extension", sets: 3, reps: 15 }
+            { name: "Pack leg press (floor)", sets: 3, reps: 15 },
+            { name: "Pack Bulgarian split squats", sets: 3, reps: 12 },
+            { name: "Pack step-ups", sets: 3, reps: 20 },
+            { name: "Pack hip thrust", sets: 3, reps: 15 },
+            { name: "Pack calf raises", sets: 3, reps: 25 }
         ]
     }
 }
 
 
 export const exerciseDescriptions = {
-    "Around the worlds": "Hold a stick with a double shoulder-width grip. Start with the stick at your hips, then lift it over your head, keeping your arms straight, and lower it behind your back as far down as comfortable. Then slowly reverse the motion to return to the starting position.",
-    "Scapula pushups": "Begin in a high plank position. Keep your arms straight and only move your shoulder blades, bringing them together and apart in a controlled manner, as you lower your body towards the ground, and then raise it back up. Hold a kneeling position if the plank is too challenging.",
-    "Wall bodyweight rows": "Stand a foot away from a wall, lean back, and with your elbows by your sides and hands pointing forward of your body, press your body off the wall using your elbows while engaging your back muscles.",
-    "leaning rear delt holds": "Stand with your back against a wall, elbows at shoulder level, hands to the sky, and thumbs facing your ears. Engage your rear delts to press your back off the wall using your elbows.",
-    "Scapula pull ups": "Hang from a pull-up bar or lat pull down machine with straight arms. Without bending your elbows, engage your shoulder blades to lift your body slightly, then release back to hanging position.",
-    "Glute bridges": "Lie on your back with knees bent and feet on the ground. Lift your hips by contracting your glutes, creating a straight line from shoulders to knees.",
-    "Bodyweight squats": "Perform a regular squat, but pause for 2-3 seconds at the bottom before standing back up. Feet shoulder width apart.",
-    "Bodyweight RDLs": "Stand on one leg, hinge at the hips to lower your torso to horizontal while extending the other leg behind you, and return to a standing position by engaging your hamstrings and glutes. Microbend the leg still on the ground as you complete the exercise.",
-
-    "Barbell bench press": "Lie on a flat bench and lower a barbell to your chest, flaring your elbows between a 45 - 60 degree angle, then press it back up using your chest muscles. Hands should be 1.5 times your shoulder width apart.",
-    "Incline dumbbell press": "Lie on an incline bench and press dumbbells upwards, focusing on the upper part of your chest.",
-    "Dumbbell chest flies": "Lie on a flat bench with dumbbells held towards the sky. Then slowly lower them to either side, open your arms wide as if you were about to hug a large tree, and then bring them together over your chest in a hugging motion.",
-    "Cable crossover press": "Using a cable machine with handles, press the cables together in front of you, slight crossing your hands over one-another at the end of the motion, engaging your chest muscles.",
-    "Cable chest flies": "Stand between two cable attachments, facing forwards of the machines, and perform chest flies by bringing the handles together in front of your chest, focusing on the squeeze.",
-    "Pushups": "Start in a plank position with your hands slightly wider than shoulder-width, lower your chest to the ground, elbows flaring to a 45 - 60 degree angle, and push back up.",
-    "Dips": "Using parallel bars, lower your body by bending your elbows and push back up, focusing on triceps and chest.",
-    "Cable rope pushdown": "Using a cable machine with a rope attachment, extend your arms downward to straighten your elbows, targeting your triceps.",
-    "Dumbbell skull crushers": "Lie on a bench, holding dumbbells with arms extended. Bend your elbows to lower the weights toward your forehead, then extend your arms back up.",
-    "Unilateral cable pushdown": "Using a cable machine, push the handle downwards with one hand, keeping your elbow close to your body and extending the tricep fully.",
-
-    "Lat pull down": "Sit at a lat pulldown machine, pull the bar down to your chest while engaging your lats, and return to the starting position.",
-    "Cable row": "Sit at a cable machine and pull the handle towards your torso while keeping your back straight, focusing on squeezing your shoulder blades together.",
-    "Unilateral dumbbell row": "Place one hand on a bench, hinge at the hips, and row a dumbbell with the other hand by pulling it towards your hip, focusing on your lats.",
-    "Chest supported dumbbell row": "Lie face down on an incline bench and perform rows with dumbbells, focusing on squeezing your shoulder blades together.",
-    "Dumbbell side raises": "Hold dumbbells at your sides and raise them outward until your arms are parallel to the floor, targeting your shoulders.",
-    "Rear delt flies": "Bend over with a slight bend in your knees, raise dumbbells (or cables) out to the sides in a flying motion, targeting your rear deltoids.",
-    "Cable bar shrugs": "Using a cable machine, shrug your shoulders upwards while keeping your arms straight, targeting your traps.",
-    "Overhand cable curl": "Using a cable machine with a bar attachment, perform bicep curls with an overhand grip, targeting your forearms and biceps.",
-    "Hammer grip dumbbell curl": "Hold dumbbells with a neutral grip (palms facing inward) and perform bicep curls by bending your elbows.",
-    "Alternating dumbbell curl": "Hold dumbbells in both hands and alternate curling one dumbbell at a time, focusing on bicep contraction.",
-
-    "Barbell squat": "Place a barbell across your upper back, squat down by bending your hips and knees, and then stand back up, keeping your chest lifted.",
-    "Leg press": "Sit on a leg press machine and push the platform away from your body by extending your legs, then return to the starting position.",
-    "Goblet squat": "Hold a dumbbell or kettlebell close to your chest and perform a squat, keeping your torso upright.",
-    "Hip thrust": "Rest your upper back on a bench, place a barbell or weight over your hips, and push your hips upwards by contracting your glutes.",
-    "Bulgarian split squat": "Place one foot on a bench behind you and squat with your front leg, keeping your torso upright.",
-    "Unilateral RDLs": "Hold a dumbbell in one hand, stand on the opposite leg, and hinge at the hips to lower the dumbbell toward the ground. Return to standing by engaging your hamstrings.",
-    "Romanian deadlifts": "Hold a barbell or dumbbells with straight arms, hinge at the hips to lower the weights while keeping your back straight, then return to a standing position.",
-    "Walking lunges": "Take a step forward and lower into a lunge, then step forward with the other leg and repeat, walking in a straight line.",
-    "Leg extension": "Sit on a leg extension machine and extend your legs until they are straight, focusing on your quadriceps.",
-    "Hamstring curl": "Using a leg curl machine, curl your legs toward your glutes to engage the hamstrings, then return to the starting position.",
-    "Calf raises": "Stand on the Smith machine with the bar on your shoulders, or in a leg press with your legs almost straight, raise your heels to engage your calves, and then lower them back down.",
-    "Good girls / bad girls": "Using the adductor/abductor machine, move your legs together (adductor) or apart (abductor) to target the inner and outer thighs.",
+    "Ruck shoulder circles": "Stand tall with your pack on or held in hand. Rotate your shoulders in wide, slow circles to loosen tension before training.",
+    "Scapular pushups with pack": "In plank position with the pack on your back, squeeze and release your shoulder blades while keeping arms straight.",
+    "Pack floor press": "Lie on your back holding your pack over your chest. Lower it slowly to your sternum and press it back up under control.",
+    "Incline pushups on pack": "Place hands on your pack, keep your body straight, and lower your chest to the pack before pressing up.",
+    "Alternating pack flies (floor)": "Lie on the floor with pack held above your chest. Lower one arm at a time in a wide arc until elbow taps floor, then bring it back.",
+    "Overhead pack hold": "Lift your pack overhead and hold your arms locked out. Keep core braced and spine tall.",
+    "Pack triceps extension": "Hold pack above head with both hands. Lower behind your head and extend elbows to full lockout.",
+    "Wall rows": "Stand facing a wall, lean back with hands flat, and pull your chest toward it by squeezing your shoulder blades.",
+    "Scapular prone pulls": "Lie face down, arms extended. Pull elbows back while squeezing shoulder blades together.",
+    "Pack bent-over rows": "Hinge forward at the hips with the pack in hand. Pull it to your waist and control the descent.",
+    "Inverted body rows (table)": "Lie under a sturdy table, grab the edge, and pull your chest up to it while keeping body straight.",
+    "Single-arm pack rows": "Use one arm to row the pack from the ground to your waist while stabilizing with the other hand on your knee.",
+    "Pack curls": "Hold your pack by the straps and curl it toward your shoulders, keeping elbows tight to sides.",
+    "Pack static holds": "Hold your pack at chest height or down at your sides for the given time without moving.",
+    "Glute bridges": "Lie on your back, knees bent, pack across hips. Drive through your heels and raise your hips until fully extended.",
+    "Bodyweight squats": "Feet shoulder-width apart, lower hips down and back as if sitting in a chair, then return to standing.",
+    "Front-loaded pack squats": "Hold the pack tight to your chest and squat, keeping chest tall and core tight.",
+    "Walking lunges with pack": "Hold your pack in front or on back and step forward into lunges, alternating legs.",
+    "Hip thrusts with pack": "Place upper back on a surface, pack over hips, and lift hips until knees, hips, and shoulders align.",
+    "Pack Romanian deadlifts": "Hold pack in front, hinge at hips, keeping back straight and lowering pack to mid-shin.",
+    "Calf raises with pack": "Hold pack or wear it. Raise heels off the ground and pause at the top for a second before lowering.",
+    "Pack shoulder rotations": "Hold a light pack and slowly rotate shoulders forward and backward to warm the joint.",
+    "Weighted pushups (pack on back)": "Perform a pushup with the pack secured on your back for added resistance.",
+    "Pack presses (floor)": "Lie flat holding your pack and press it straight up from chest to full arm extension.",
+    "Pushup to shoulder tap": "Do a pushup, then tap each shoulder at the top, maintaining core control.",
+    "Overhead carry march": "Hold your pack overhead and march in place, maintaining posture and core tension.",
+    "Pack triceps dips (bench)": "Place hands on a bench, feet out, and lower yourself by bending elbows before pressing up.",
+    "Rear delt wall holds": "Stand facing a wall, arms out to sides, and press backs of hands gently against the surface.",
+    "Pack rows": "Bend slightly forward holding your pack and pull it toward your stomach in a smooth motion.",
+    "Bodyweight reverse snow angels": "Lie face down and sweep your arms wide from hips to overhead, keeping them off the ground.",
+    "Pack lateral raises": "Hold pack straps in each hand and raise arms to shoulder height before lowering.",
+    "Pack shrugs": "Hold pack at your sides and shrug shoulders up toward ears, then lower slowly.",
+    "Alternating pack curls": "Curl one arm at a time with the pack, keeping motion smooth and elbows close.",
+    "Bridge march": "In bridge position, alternate lifting each leg while keeping hips high.",
+    "Squat mobility drills": "Perform controlled squats through full range to open hips and knees.",
+    "Pack deadlifts": "Stand tall with pack on ground. Grip and lift through legs and hips to full extension.",
+    "Pack step-ups": "Step up onto a stable surface with your pack, alternating lead legs.",
+    "Pack good mornings": "Hold pack on shoulders, hinge forward at hips until hamstrings stretch, then return upright.",
+    "Pack calf raises": "Hold or wear your pack. Lift heels, pause at top, and lower slowly.",
+    "Shoulder rolls with pack": "Hold or wear your pack lightly. Roll shoulders forward and back to warm up.",
+    "Scapular pushups": "With arms straight, squeeze shoulder blades together and apart without bending elbows.",
+    "Pack bench press (floor)": "Lie flat, pack on chest. Press straight up and control on descent.",
+    "Incline pushups": "Hands on raised surface, lower chest down and press back up.",
+    "Pack shoulder press": "Press your pack from shoulder height to overhead, keeping core tight.",
+    "Pack overhead hold march": "Hold pack overhead and march, maintaining braced core.",
+    "Triceps extensions with pack": "Lift pack overhead, bend elbows to lower it behind head, then extend arms fully.",
+    "Wall body rows": "Stand facing wall, lean back holding edge, and pull chest toward wall.",
+    "Pack arm circles": "Hold pack in front or wear it. Make slow forward and backward circles with arms.",
+    "Pack one-arm rows": "Row pack one arm at a time while supporting body with opposite hand.",
+    "Pack rear delt raises": "Hinge slightly forward and raise pack outward with straight arms.",
+    "Pack biceps curls": "Hold pack by straps and curl toward shoulders, engaging biceps.",
+    "Pack static shrugs": "Hold pack by sides and maintain a high shrug position for the time specified.",
+    "Bridge holds": "Lie back, lift hips, and hold at top with pack on hips for time.",
+    "Squat to hinge drill": "Transition from squat to hip hinge repeatedly to build hip control.",
+    "Pack squats": "Hold pack close to chest, squat to full depth, and rise with control.",
+    "Split squats with pack": "Hold pack and perform squats with one foot forward and one behind.",
+    "Pack RDLs": "Hold pack in front and hinge forward until hamstrings stretch, then return upright.",
+    "Pack hip thrusts": "Place upper back on surface, pack over hips, and thrust hips upward.",
+    "Pack pushups (weighted)": "Perform pushups with the pack on your back to add resistance.",
+    "Pack chest press (floor)": "Lie flat, hold pack over chest, lower it, then press back up.",
+    "Alternating pack flies": "Perform chest fly one arm at a time with pack on floor or bench.",
+    "Pack triceps dips": "Use bench to lower and raise your body using arms, pack optional for load.",
+    "Overhead ruck march": "Hold pack overhead while marching in place or walking for the duration.",
+    "Pack incline rows (table)": "Lie under a sturdy table, grip edge, and row chest up to it.",
+    "Pack overhand curls": "Hold pack with overhand grip and curl to shoulder height.",
+    "Pack hammer curls": "Hold pack straps neutral and curl upward for forearm engagement.",
+    "Pack front squats": "Hold pack tight to chest and squat deeply, keeping torso upright.",
+    "Pack split squats": "Hold pack in front and lunge with one leg behind you.",
+    "Pack hamstring slides": "Lie on back, pack across hips, and slide feet away then back to engage hamstrings.",
+    "Pack leg extensions (floor hold)": "Sit with legs extended and pack on shins, hold contraction briefly each rep.",
+    "Pack overhead press": "Press pack overhead from shoulder height and control the descent.",
+    "Pack bent rows": "Hinge forward and row the pack toward lower ribs.",
+    "Pack side step squats": "Step laterally into squats with pack held at chest.",
+    "Hip thrust with pack": "Pack across hips, lift to full bridge, and control descent.",
+    "Weighted pack pushups": "Perform pushups with loaded pack on your back for strength.",
+    "Pack dips (bench)": "Hands on bench edge, lower body, then press up to full elbow extension.",
+    "Overhead pack march": "Hold pack overhead and march, keeping posture upright.",
+    "Around the worlds with pack": "Hold pack with both hands and rotate it in a full circle around head or torso.",
+    "Pack goblet squats": "Hold pack like a goblet at chest height and squat deeply.",
+    "Pack adductor/abductor slides": "With feet on towels, slide legs out and in while holding pack for load.",
+    "Ruck shoulder rolls": "Roll shoulders forward and backward while wearing or holding your pack.",
+    "Pack back squats": "Place pack across upper back and perform full squats.",
+    "Pack unilateral RDLs": "Balance on one leg and hinge forward holding pack toward ground.",
+    "Pack face pulls (band/strap)": "Attach strap to pack, pull toward face, keeping elbows high.",
+    "Pack leg press (floor)": "Lie on back, pack on feet, and press upward like a leg press.",
+    "Pack Bulgarian split squats": "Rear foot elevated, hold pack at chest and perform deep squats.",
+    "Pack hip thrust": "Place pack across hips and lift to full extension at top."
 }
-
 export const templeHealthFacts = [
-    "Getting 7–9 hours of sleep supports muscle recovery and hormone balance.",
-    "Eating enough protein (1.6–2.2g per kg body weight) helps with muscle repair and growth.",
-    "Staying hydrated improves workout performance and aids nutrient delivery.",
-    "Moderate caffeine use can boost focus, strength, and endurance during workouts.",
-    "Healthy fats support hormone production and long-term energy levels.",
-    "Fiber-rich foods support digestion and help maintain a lean physique.",
-    "Daily walking improves cardiovascular health and aids recovery on rest days.",
-    "Meditation on the Word will produce fruit, follow the tree.",
-    "A proper warm-up increases blood flow and reduces injury risk.",
-    "Skipping rest days can lead to overtraining, fatigue, and stalled progress."
+    "Getting 7–9 hours of sleep restores muscle, hormones, and focus — treat rest as sacred recovery.",
+    "Eating enough protein (1.6–2.2g per kg of bodyweight) repairs muscle and strengthens discipline in diet.",
+    "Staying hydrated improves endurance, clarity, and digestion — water is the first commandment of health.",
+    "Moderate caffeine use can boost alertness, but excess dulls the mind — control the dose, not the ritual.",
+    "Healthy fats support hormones and cognition — olive oil, fish, and nuts fuel both mind and mission.",
+    "Fiber-rich foods aid digestion and lower inflammation — discipline starts in the gut.",
+    "Walking daily maintains cardiovascular health and clears the mind — stillness through motion.",
+    "Breathing deeply resets your nervous system — mastery of breath is mastery of self.",
+    "Strength training increases bone density — pressure refines structure, just as trials refine will.",
+    "Stretching after training preserves mobility — flexibility is the mark of a balanced warrior.",
+    "Sunlight enhances vitamin D and mood — light is medicine freely given, take it daily.",
+    "Cold exposure improves recovery and mental resilience — endurance begins with discomfort.",
+    "Consistent sleep and wake times regulate hormones — discipline brings peace to the body’s rhythm.",
+    "Skipping rest days breaks progress — recovery is not idleness, it is obedience to design.",
+    "A calm meal strengthens digestion — eat slowly, breathe, and honor your fuel.",
+    "Stress management lowers cortisol — a steady mind keeps the temple fortified.",
+    "Hydrating with electrolytes during long training sustains strength — salt and water are the soldier’s allies.",
+    "Avoiding processed sugar preserves insulin balance — mastery over appetite builds mastery elsewhere.",
+    "Training outdoors strengthens immunity — creation restores what confinement weakens.",
+    "Consistency, not perfection, builds lasting health — devotion to small acts guards the temple daily."
 ]

@@ -45,9 +45,9 @@ defineProps({
           entire length of the program) <br />
           - <b>Punching Bag</b> <small><i>preffered</i></small
           >, can use functional training if necessary (shadow boxing) <br />
-          - <b>Bonus material</b>
-          <small><i>not necessary, use if you have acesss</i></small> - Rope
-          climb (Or ladder climb)
+          - <b>Guide:</b> <br />
+          <h3>Test</h3>
+          
           <p>
             <small><i>What will it be? </i></small>
           </p>
