@@ -9,7 +9,7 @@ defineProps({
 
 <template>
     <section id="grid">
-        <button @click="() => handleSelectWorkout(workoutIdx)" :key="workoutIdx" v-for="(workout, workoutIdx) in Object.keys
+        <button disabled="" @click="() => handleSelectWorkout(workoutIdx)" :key="workoutIdx" v-for="(workout, workoutIdx) in Object.keys
         (workoutProgram)" class="card-button plan-card">
             <div>
                 <p>Day {{ workoutIdx < 9 ? '0' + (workoutIdx + 1): workoutIdx + 1}}</p>
@@ -32,7 +32,10 @@ defineProps({
     #grid button {
         width: 100%;
     }
-
+    #grid button:disabled {
+        box-shadow: none;
+        cursor: not-allowed;
+    }
     .plan-card {
         flex-direction: column;
     }

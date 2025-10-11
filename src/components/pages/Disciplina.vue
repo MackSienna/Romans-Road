@@ -4,7 +4,10 @@
     import { workoutProgram, exerciseDescriptions } from '../../utils';
     const { data, selectedWorkout } = defineProps({
         data: Object,
-        selectedWorkout: Number
+        selectedWorkout: Number,
+        handleSaveWorkout: Function,
+        isWorkoutComplete: Boolean
+
     })
     const { workout, warmup } = workoutProgram[selectedWorkout]
     let selectedExercise = ref(null)
@@ -30,7 +33,7 @@
     <section id="workout-card">
         <div class="plan-card card">
             <div class="plan-card-header">
-                <p>Day {{ selectedWorkout < 9 ? '0' + selectedWorkout : selectedWorkout }}
+                <p>Day {{ selectedWorkout < 9 ? '0' + (selectedWorkout + 1) : (selectedWorkout + 1) }}
                     </p>
                   <i class="fa-solid fa-person-walking"></i>
                 </div>
@@ -74,8 +77,8 @@
                     </div>
                 </div>
                 <div class="card workout-btns">
-                    <button>Log & Exit <i class="fa-solid fa-feather-pointed"></i></button>
-                    <button>Advance <i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+                    <button @click="handleSaveWorkout">Log & Exit <i class="fa-solid fa-feather-pointed"></i></button>
+                    <button :disabled="isWorkoutComplete" @click="handleSaveWorkout">Advance <i class="fa-solid fa-arrow-right-to-bracket"></i></button>
                     </div>
         </section>
 </template>

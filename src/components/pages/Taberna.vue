@@ -2,7 +2,8 @@
 import Grid from '../Grid.vue'
 import { templeHealthFacts } from '../../utils';
 const props = defineProps({
-    handleSelectWorkout: Function
+    handleSelectWorkout: Function,
+    firstIncompleteWorkoutIndex: Number
 })
 
 const randomNumber = Math.floor(Math.random() * templeHealthFacts.length)
@@ -18,7 +19,9 @@ const todaysTip = templeHealthFacts[randomNumber]
                 <p class="tip"><strong>Daily word</strong> <i>Verbum Cotidianum
 </i><br/>{{ todaysTip }}</p>
             </div>
-            <button>Start Regiment &rarr; </button>
+            <button @click="() => handleSelectWorkout(firstIncompleteWorkoutIndex < 0 ? 0 : 
+            firstIncompleteWorkoutIndex)
+                ">Start Regiment &rarr; </button>
     </div>
     <Grid v-bind="props" />
 
