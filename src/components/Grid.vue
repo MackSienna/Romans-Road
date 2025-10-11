@@ -1,6 +1,6 @@
 <script setup>
 import { workoutProgram } from "../utils";
-const workoutTypes = ["Ruck", "Functional Strength", "Full - Body"];
+const workoutTypes = ["Ruck", "Func. Strength", "Full - Body"];
 defineProps({
   handleSelectWorkout: Function,
   firstIncompleteWorkoutIndex: Number,

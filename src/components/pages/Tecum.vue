@@ -2,22 +2,26 @@
 defineProps({
   handleChangeDisplay: Function,
 });
+import bannerImg from '../../assets/7e.jpg'
+
 </script>
 
 <template>
   <section id="welcome">
     <div class="benefits">
-      <h2>Complete this ratio</h2>
+     <img :src="bannerImg" alt="Regiment Banner" style="width: 300px; height: auto;" />
+
+      <h2>Will You Complete This Ratio?</h2>
       <div>
         <p>
-          Sequere Viam Lucis, become disciplined <br />
+          Sequere Viam Lucis, <b>become disciplined</b> <br />
           <strong>Train Like Legionaries</strong>
         </p>
-        <p><i>Crucifige Carnem — Esto Templum Dei</i></p>
+        <p><i><b>Crucifige Carnem</b> — Esto Templum Dei</i></p>
       </div>
     </div>
     <div>
-      <h3>Regiment</h3>
+      <h3>Regiment:</h3>
       <p>
         A hybrid endurance and strength system inspired by the physical training
         of Roman soldiers, designed to build
@@ -43,11 +47,10 @@ defineProps({
         <small>
           - <b>Ruck Sack</b> (any backpack) (Choose one and use it for the
           entire length of the program) <br />
-          - <b>Punching Bag</b> <small><i>preffered</i></small
-          >, can use functional training if necessary (shadow boxing) <br />
-          - <b>Bonus material</b>
-          <small><i>not necessary, use if you have acesss</i></small> - Rope
-          climb (Or ladder climb)
+          
+          <h2>Guide:</h2>
+          <b> - Input a value on your daily workouts to progress down the month-long journey. The entire program relies on calisthenics and one piece of equipment: a ruck.
+</b> 
           <p>
             <small><i>What will it be? </i></small>
           </p>
