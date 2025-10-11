@@ -1,4 +1,7 @@
 <script setup>
+    defineProps ({
+        handleChangeDisplay: Function
+    })
 </script>
 
 <template>
@@ -6,7 +9,7 @@
     <div class="benefits">
      <h2>Complete this ratio</h2>
      <div>
-         <p>✅ Sequere Viam Lucis, become disciplined. <strong>Train Like Legionaries</strong> </p>
+         <p>Sequere Viam Lucis, become disciplined <br /> <strong>Train Like Legionaries</strong> </p>
             <p><i>Crucifige Carnem — Esto Templum Dei</i></p>
     </div>
     </div>
@@ -25,7 +28,7 @@
             - <b>Bonus material</b> <small><i>not necessary, use if you have acesss</i></small> - Rope climb (Or ladder climb)
             <p><small><i>What will it be? </i></small></p>
         </small></p>
-        <button><b>Enter The Hall</b> <i><small>Ingredere aulam:</small></i></button>
+        <button @click="() => handleChangeDisplay(2)">&rarr;<b>Enter The Hall</b> <i><small>Ingredere aulam:</small></i></button>
     </div>
     </section>
 </template>

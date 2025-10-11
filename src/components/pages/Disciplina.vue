@@ -2,7 +2,10 @@
     import { computed, ref } from 'vue'
     import Vestibulum from '../Vestibulum.vue';
     import { workoutProgram, exerciseDescriptions } from '../../utils';
-    const selectedWorkout = 4
+    const { data, selectedWorkout } = defineProps({
+        data: Object,
+        selectedWorkout: Number
+    })
     const { workout, warmup } = workoutProgram[selectedWorkout]
     let selectedExercise = ref(null)
     console.log(selectedExercise)
@@ -67,7 +70,7 @@
                         </div>
                         <p>{{ w.sets }}</p>
                         <p>{{ w.reps }}</p>
-                        <input class="grid-equipment" placeholder="Bag" type="text" />
+                        <input v-model="data[selectedWorkout][w.name]" class="grid-equipment" placeholder="Bag" type="text" />
                     </div>
                 </div>
                 <div class="card workout-btns">

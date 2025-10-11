@@ -1,6 +1,9 @@
 <script setup>
 import Grid from '../Grid.vue'
 import { templeHealthFacts } from '../../utils';
+const props = defineProps({
+    handleSelectWorkout: Function
+})
 
 const randomNumber = Math.floor(Math.random() * templeHealthFacts.length)
 const todaysTip = templeHealthFacts[randomNumber]
@@ -17,7 +20,7 @@ const todaysTip = templeHealthFacts[randomNumber]
             </div>
             <button>Start Regiment &rarr; </button>
     </div>
-    <Grid />
+    <Grid v-bind="props" />
 
     </section>
 </template>

@@ -1,13 +1,15 @@
 <script setup>
     import {workoutProgram} from '../utils'
     const workoutTypes = ['Ruck', 'Functional Strength', 'Full - Body']
-
+defineProps({
+    handleSelectWorkout: Function
+})
 
 </script>
 
 <template>
     <section id="grid">
-        <button :key="workoutIdx" v-for="(workout, workoutIdx) in Object.keys
+        <button @click="() => handleSelectWorkout(workoutIdx)" :key="workoutIdx" v-for="(workout, workoutIdx) in Object.keys
         (workoutProgram)" class="card-button plan-card">
             <div>
                 <p>Day {{ workoutIdx < 9 ? '0' + (workoutIdx + 1): workoutIdx + 1}}</p>
