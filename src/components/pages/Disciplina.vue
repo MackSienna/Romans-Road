@@ -56,7 +56,7 @@ function handleCloseModal() {
     </div>
     <div class="workout-grid">
       <h4 class="grid-name">Warmup</h4>
-      <h6>Duration</h6>
+      <h6>Sets</h6>
       <h6>Ratio</h6>
       <h6 class="grid-equipment">Equipment</h6>
       <div class="workout-grid-row" v-for="(w, wIdx) in warmup" :key="wIdx">
@@ -78,7 +78,7 @@ function handleCloseModal() {
       </div>
       <div class="workout-grid-line"></div>
       <h4 class="grid-name">Workout</h4>
-      <h6>Duration</h6>
+      <h6>Sets</h6>
       <h6>Ratio</h6>
       <h6 class="grid-equipment">Equipment</h6>
       <div class="workout-grid-row" v-for="(w, wIdx) in workout" :key="wIdx">
