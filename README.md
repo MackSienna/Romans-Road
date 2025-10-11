@@ -29,8 +29,8 @@ Core structure is finished and functional. Workouts load dynamically, modals dis
 
 ## Roadmap
 
-- Develop **ManuCSS** (a manuscript-inspired CSS framework to be repo’d separately; apply here)  
-- Update **all** information in `index.js`  
+~~- Develop **ManuCSS** (a manuscript-inspired CSS framework to be repo’d separately; apply here)~~
+~~- Update **all** information in `index.js`~~  
 
 ---
 
