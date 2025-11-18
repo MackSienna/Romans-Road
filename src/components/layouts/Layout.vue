@@ -9,7 +9,7 @@
   </main>
   <footer>
     <small><b>Boatie</b></small>
-    <a href="https://github.com/Trabmini" target="_blank">
+    <a href="https://github.com/MackSienna" target="_blank">
       <img
         alt="Profile"
         src="https://avatars.githubusercontent.com/u/236309616?v=4"
