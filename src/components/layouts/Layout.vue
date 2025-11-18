@@ -14,7 +14,7 @@
         alt="Profile"
         src="https://avatars.githubusercontent.com/u/236309616?v=4"
       />
-      <p>Trabmini</p>
+      <p>MackSienna</p>
       <i class="fa-regular fa-font-awesome"></i>
     </a>
   </footer>
